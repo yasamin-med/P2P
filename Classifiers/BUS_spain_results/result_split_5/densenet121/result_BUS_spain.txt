@@ -1,0 +1,207 @@
+densenet121 StartsEpoch 1/100, Loss: 0.6485160191853842
+Validation Accuracy: 59.375%
+Epoch 2/100, Loss: 0.19498761494954428
+Validation Accuracy: 71.875%
+Epoch 3/100, Loss: 0.16918605317672095
+Validation Accuracy: 68.75%
+Epoch 4/100, Loss: 0.08335258811712265
+Validation Accuracy: 71.875%
+Epoch 5/100, Loss: 0.05057188371817271
+Validation Accuracy: 68.75%
+Epoch 6/100, Loss: 0.039545511516431965
+Validation Accuracy: 71.875%
+Epoch 7/100, Loss: 0.02440686213473479
+Validation Accuracy: 71.875%
+Epoch 8/100, Loss: 0.04673984864105781
+Validation Accuracy: 71.875%
+Epoch 9/100, Loss: 0.00847302571249505
+Validation Accuracy: 71.875%
+Epoch 10/100, Loss: 0.00491172494366765
+Validation Accuracy: 71.875%
+Epoch 11/100, Loss: 0.0053044711239635944
+Validation Accuracy: 75.0%
+Epoch 12/100, Loss: 0.005742658705761035
+Validation Accuracy: 81.25%
+Epoch 13/100, Loss: 0.0034777209317932525
+Validation Accuracy: 84.375%
+Epoch 14/100, Loss: 0.0011957224536066253
+Validation Accuracy: 87.5%
+Epoch 15/100, Loss: 0.0009000546318323662
+Validation Accuracy: 90.625%
+Epoch 16/100, Loss: 0.0018674131133593619
+Validation Accuracy: 90.625%
+Epoch 17/100, Loss: 0.0006264412465194861
+Validation Accuracy: 90.625%
+Epoch 18/100, Loss: 0.0007074752550882598
+Validation Accuracy: 90.625%
+Epoch 19/100, Loss: 0.000563236060164248
+Validation Accuracy: 87.5%
+Epoch 20/100, Loss: 0.0007644361855151752
+Validation Accuracy: 87.5%
+Epoch 21/100, Loss: 0.00045802660558062297
+Validation Accuracy: 87.5%
+Epoch 22/100, Loss: 0.0002094685478368774
+Validation Accuracy: 87.5%
+Epoch 23/100, Loss: 0.0006855545361759141
+Validation Accuracy: 87.5%
+Epoch 24/100, Loss: 0.00013509037671610713
+Validation Accuracy: 87.5%
+Epoch 25/100, Loss: 0.00014804194506723434
+Validation Accuracy: 87.5%
+Epoch 26/100, Loss: 0.00013602594359933087
+Validation Accuracy: 87.5%
+Epoch 27/100, Loss: 0.00011915980576304719
+Validation Accuracy: 87.5%
+Epoch 28/100, Loss: 0.0007750643999315798
+Validation Accuracy: 87.5%
+Epoch 29/100, Loss: 9.501518070464954e-05
+Validation Accuracy: 87.5%
+Epoch 30/100, Loss: 0.00026482277219959843
+Validation Accuracy: 87.5%
+Epoch 31/100, Loss: 0.0001437479343924982
+Validation Accuracy: 87.5%
+Epoch 32/100, Loss: 0.00022268967586569488
+Validation Accuracy: 87.5%
+Epoch 33/100, Loss: 0.00013766338573380685
+Validation Accuracy: 87.5%
+Epoch 34/100, Loss: 0.00025763880209221196
+Validation Accuracy: 87.5%
+Epoch 35/100, Loss: 9.02643538817453e-05
+Validation Accuracy: 87.5%
+Epoch 36/100, Loss: 7.78118313367789e-05
+Validation Accuracy: 87.5%
+Epoch 37/100, Loss: 0.00026253890731216717
+Validation Accuracy: 87.5%
+Epoch 38/100, Loss: 0.00013131549591586614
+Validation Accuracy: 87.5%
+Epoch 39/100, Loss: 0.00014887724561655583
+Validation Accuracy: 87.5%
+Epoch 40/100, Loss: 0.000449397125824665
+Validation Accuracy: 87.5%
+Epoch 41/100, Loss: 6.0425414024697e-05
+Validation Accuracy: 87.5%
+Epoch 42/100, Loss: 0.00032691463517645997
+Validation Accuracy: 87.5%
+Epoch 43/100, Loss: 0.00011211645808847
+Validation Accuracy: 87.5%
+Epoch 44/100, Loss: 0.0002876817064437394
+Validation Accuracy: 87.5%
+Epoch 45/100, Loss: 6.124774881755002e-05
+Validation Accuracy: 87.5%
+Epoch 46/100, Loss: 7.615269957265507e-05
+Validation Accuracy: 87.5%
+Epoch 47/100, Loss: 0.00019186625528770188
+Validation Accuracy: 87.5%
+Epoch 48/100, Loss: 8.993448379139106e-05
+Validation Accuracy: 87.5%
+Epoch 49/100, Loss: 0.0002309271294507198
+Validation Accuracy: 87.5%
+Epoch 50/100, Loss: 4.5420678361551836e-05
+Validation Accuracy: 87.5%
+Epoch 51/100, Loss: 5.809888413447576e-05
+Validation Accuracy: 87.5%
+Epoch 52/100, Loss: 4.304777758079581e-05
+Validation Accuracy: 87.5%
+Epoch 53/100, Loss: 5.481167924396383e-05
+Validation Accuracy: 87.5%
+Epoch 54/100, Loss: 4.11257533414755e-05
+Validation Accuracy: 87.5%
+Epoch 55/100, Loss: 0.00011435497435741127
+Validation Accuracy: 87.5%
+Epoch 56/100, Loss: 4.6490543657758586e-05
+Validation Accuracy: 87.5%
+Epoch 57/100, Loss: 0.00011875261285846743
+Validation Accuracy: 87.5%
+Epoch 58/100, Loss: 5.750695951671029e-05
+Validation Accuracy: 87.5%
+Epoch 59/100, Loss: 4.8233931011054665e-05
+Validation Accuracy: 87.5%
+Epoch 60/100, Loss: 0.0001376023707659139
+Validation Accuracy: 87.5%
+Epoch 61/100, Loss: 4.070359379208336e-05
+Validation Accuracy: 87.5%
+Epoch 62/100, Loss: 4.249013970062757e-05
+Validation Accuracy: 87.5%
+Epoch 63/100, Loss: 8.787044983667631e-05
+Validation Accuracy: 87.5%
+Epoch 64/100, Loss: 0.00039809576022283483
+Validation Accuracy: 87.5%
+Epoch 65/100, Loss: 4.3632348630732544e-05
+Validation Accuracy: 87.5%
+Epoch 66/100, Loss: 0.0004518510346921782
+Validation Accuracy: 87.5%
+Epoch 67/100, Loss: 5.413618176438225e-05
+Validation Accuracy: 87.5%
+Epoch 68/100, Loss: 3.665054221831573e-05
+Validation Accuracy: 87.5%
+Epoch 69/100, Loss: 7.474083395209163e-05
+Validation Accuracy: 87.5%
+Epoch 70/100, Loss: 0.0002450146566843614
+Validation Accuracy: 87.5%
+Epoch 71/100, Loss: 4.381715916679241e-05
+Validation Accuracy: 87.5%
+Epoch 72/100, Loss: 3.432248195167631e-05
+Validation Accuracy: 87.5%
+Epoch 73/100, Loss: 3.135481044106806e-05
+Validation Accuracy: 87.5%
+Epoch 74/100, Loss: 3.4189486541436054e-05
+Validation Accuracy: 87.5%
+Epoch 75/100, Loss: 3.4607985677818455e-05
+Validation Accuracy: 87.5%
+Epoch 76/100, Loss: 0.00010823670042251858
+Validation Accuracy: 87.5%
+Epoch 77/100, Loss: 4.414491437880012e-05
+Validation Accuracy: 87.5%
+Epoch 78/100, Loss: 2.6410453453233156e-05
+Validation Accuracy: 87.5%
+Epoch 79/100, Loss: 2.7897954472185422e-05
+Validation Accuracy: 87.5%
+Epoch 80/100, Loss: 7.791219347078975e-05
+Validation Accuracy: 87.5%
+Epoch 81/100, Loss: 4.5328939449973404e-05
+Validation Accuracy: 87.5%
+Epoch 82/100, Loss: 2.9206763429101557e-05
+Validation Accuracy: 87.5%
+Epoch 83/100, Loss: 0.0002223383883877735
+Validation Accuracy: 87.5%
+Epoch 84/100, Loss: 2.879067324101925e-05
+Validation Accuracy: 87.5%
+Epoch 85/100, Loss: 4.88374316773843e-05
+Validation Accuracy: 87.5%
+Epoch 86/100, Loss: 2.8878818435866076e-05
+Validation Accuracy: 87.5%
+Epoch 87/100, Loss: 2.3388214685837738e-05
+Validation Accuracy: 87.5%
+Epoch 88/100, Loss: 2.3466388180774327e-05
+Validation Accuracy: 87.5%
+Epoch 89/100, Loss: 6.071659481676761e-05
+Validation Accuracy: 87.5%
+Epoch 90/100, Loss: 3.0236037370438378e-05
+Validation Accuracy: 87.5%
+Epoch 91/100, Loss: 7.100648751171927e-05
+Validation Accuracy: 87.5%
+Epoch 92/100, Loss: 5.399219905181477e-05
+Validation Accuracy: 87.5%
+Epoch 93/100, Loss: 3.467104094549237e-05
+Validation Accuracy: 87.5%
+Epoch 94/100, Loss: 7.092666237440426e-05
+Validation Accuracy: 87.5%
+Epoch 95/100, Loss: 3.701015036009873e-05
+Validation Accuracy: 87.5%
+Epoch 96/100, Loss: 4.769105665521541e-05
+Validation Accuracy: 87.5%
+Epoch 97/100, Loss: 0.0002117380669612127
+Validation Accuracy: 87.5%
+Epoch 98/100, Loss: 6.092484727560077e-05
+Validation Accuracy: 87.5%
+Epoch 99/100, Loss: 3.344944282919945e-05
+Validation Accuracy: 87.5%
+Epoch 100/100, Loss: 3.641078365035355e-05
+Validation Accuracy: 87.5%
+Training complete on densenet121
+best accuracy for validation: 0.90625
+Test Accuracy: 71.875%
+F1 score: 0.694591728525981%
+Class 0 - Sensitivity: 0.7619, Specificity: 0.6364, precision: 0.8000
+Class 1 - Sensitivity: 0.6364, Specificity: 0.7619, precision: 0.5833
+sensitivity_avg = 0.6991 , specifity_avg = 0.6991, precision_avg = 0.6917, F1 =  0.6946
