@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 ## Resources
 The code was tested on a GeForce RTX 3080 32GB but should work on other cards with at least 32GB VRAM.
-# Training Classifiers
+## Training Classifiers
 You can train the classifiers using the command below:
 ```bash
   python evaluate_new.py --data_path <dir_of_dataset_local>\
@@ -43,5 +43,6 @@ You can train the classifiers using the command below:
    --output_file_name <name_of_result_text_and_table>\
    --size 224
 ```
-
+## P2P
+You can generate adversarial attack by our pipeline using the command below:
 
