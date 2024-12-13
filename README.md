@@ -56,7 +56,7 @@ Each of the dataset directories should be formatted so that each class has its o
 You can generate adversarial attack by our pipeline using the command below:
 ```bash
   accelerate launch /P2P/P2P.py \
-    --pretrained_model_name_or_path=<Path_to_pretrained_model> \
+    --pretrained_model_name_or_path=<path_to_pretrained_model> \
     --train_data_dir=<data_dir> \
     --learnable_property="object" \
     --placeholder_token="<${class}>" --initializer_token="${class}" \
@@ -73,6 +73,14 @@ You can generate adversarial attack by our pipeline using the command below:
     --classifier_name=<classifier> \
     --classifier_path=<path_classifier> \
     --csv_path=<path_csv> \
-    --num_class=3
+    --num_class=2
 ```
+- `path_to_pretrained_model` path to pre-trained stable diffusion model
+- `train_data_dir` path to images to apply attack to
+- `class` name of class to apply attacks to
+- `output_dir` where the model predictions and checkpoints will be written
+- `image_save_path` directory for attacked images
+- `classifier` name of classifier
+- `path_classifier` path where the classifier resides
+- `path_csv` path to save csv output of training metrics 
 
