@@ -39,5 +39,5 @@ You can train the classifiers using the command below:
    --output_file_name <name_of_result_text_and_table>\
    --size 224
 ```
-Note that you need to specify the ImageNet dataset path with the `dataset_path` argument.
+
 
