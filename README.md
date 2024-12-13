@@ -29,41 +29,41 @@ The code was tested on a GeForce RTX 3080 32GB but should work on other cards wi
 ## Training Classifiers
 You can train the classifiers using the command below:
 ```bash
-  python evaluate_new.py --data_path <dir_of_dataset_local>\
-   --data_test_path <path_of_test_dataset>\
-   --data_valid_path <path_of_validation_set>\
-   --output_path <dir_of_output>\
-   --adjective_list "" \
-   --baselines 'densenet121','resnet34','squeezenet1.1'\
-   --adjective_flag 0\
-   --batch_size 32\
-   --num_class 3\
-   --num_epochs 100\
-   --train 0\
-   --output_file_name <name_of_result_text_and_table>\
-   --size 224
+python evaluate_new.py --data_path <dir_of_dataset_local>\
+ --data_test_path <path_of_test_dataset>\
+ --data_valid_path <path_of_validation_set>\
+ --output_path <dir_of_output>\
+ --adjective_list "" \
+ --baselines 'densenet121','resnet34','squeezenet1.1'\
+ --adjective_flag 0\
+ --batch_size 32\
+ --num_class 3\
+ --num_epochs 100\
+ --train 0\
+ --output_file_name <name_of_result_text_and_table>\
+ --size 224
 ```
 ## P2P
 You can generate adversarial attack by our pipeline using the command below:
 ```bash
-      accelerate launch /P2P/P2P.py \
-        --pretrained_model_name_or_path=<Path_to_pretrained_model> \
-        --train_data_dir=<data_dir> \
-        --learnable_property="object" \
-        --placeholder_token="<${class}>" --initializer_token="${class}" \
-        --resolution=224 \
-        --train_batch_size=1 \
-        --gradient_accumulation_steps=4 \
-        --max_train_steps=6000 \
-        --learning_rate=5.0e-04 --scale_lr \
-        --lr_scheduler="constant" \
-        --lr_warmup_steps=0 \
-        --output_dir=<checkpoint_path> \
-        --saving_image_dir=<image_save_path> \
-        --class_name=<class> \
-        --classifier_name=<classifier> \
-        --classifier_path=<path_classifier> \
-        --csv_path=<path_csv> \
-        --num_class=3
+  accelerate launch /P2P/P2P.py \
+    --pretrained_model_name_or_path=<Path_to_pretrained_model> \
+    --train_data_dir=<data_dir> \
+    --learnable_property="object" \
+    --placeholder_token="<${class}>" --initializer_token="${class}" \
+    --resolution=224 \
+    --train_batch_size=1 \
+    --gradient_accumulation_steps=4 \
+    --max_train_steps=6000 \
+    --learning_rate=5.0e-04 --scale_lr \
+    --lr_scheduler="constant" \
+    --lr_warmup_steps=0 \
+    --output_dir=<checkpoint_path> \
+    --saving_image_dir=<image_save_path> \
+    --class_name=<class> \
+    --classifier_name=<classifier> \
+    --classifier_path=<path_classifier> \
+    --csv_path=<path_csv> \
+    --num_class=3
 ```
 
