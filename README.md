@@ -18,6 +18,10 @@ In contrast to current prompt learning-based approaches, our P2P stands out by d
 ## Requirements
 The code requires Python 3.8 or later. The file [requirements.txt](requirements.txt) contains the full list of required Python modules.
 ```bash
+git clone https://github.com/huggingface/diffusers
+cd diffusers
+pip install .
+cd examples/text_to_image
 pip install -r requirements.txt
 ```
 ## Resources
