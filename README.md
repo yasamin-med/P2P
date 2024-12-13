@@ -29,7 +29,7 @@ You can train the classifiers using the command below:
    --data_test_path <path_of_test_dataset>\
    --data_valid_path <path_of_validation_set>\
    --output_path <dir_of_output>\
-   --adjective_list "bright","colorful","dark","high-contrast","low-contrast","no_adjective","posterized","sheared","solarized","stylized" \
+   --adjective_list "" \
    --baselines 'densenet121','resnet34','squeezenet1.1'\
    --adjective_flag 0\
    --batch_size 32\
