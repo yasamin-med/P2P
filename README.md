@@ -20,4 +20,24 @@ The code requires Python 3.8 or later. The file [requirements.txt](requirements.
 ```bash
 pip install -r requirements.txt
 ```
+## Resources
+The code was tested on a GeForce RTX 3080 32GB but should work on other cards with at least 32GB VRAM.
+# Training Classifiers
+You can train the classifiers using the command below:
+```bash
+  python evaluate_new.py --data_path <dir_of_dataset_local>\
+   --data_test_path <path_of_test_dataset>\
+   --data_valid_path <path_of_validation_set>\
+   --output_path <dir_of_output>\
+   --adjective_list "bright","colorful","dark","high-contrast","low-contrast","no_adjective","posterized","sheared","solarized","stylized" \
+   --baselines 'densenet121','resnet34','squeezenet1.1'\
+   --adjective_flag 0\
+   --batch_size 32\
+   --num_class 3\
+   --num_epochs 100\
+   --train 0\
+   --output_file_name <name_of_result_text_and_table>\
+   --size 224
+```
+Note that you need to specify the ImageNet dataset path with the `dataset_path` argument.
 
