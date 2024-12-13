@@ -1,5 +1,7 @@
-# Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images
-![Example Paper](images/attack%20paper%20final%20version-1.png)
+
+<div align="center">
+<h1> Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images </h1>
+<h3>
 
 <image src="images/attack paper_final_version-1.png" width="600">
 </div>
