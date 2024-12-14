@@ -16,12 +16,7 @@ In contrast to current prompt learning-based approaches, our P2P stands out by d
 
 <br>
 
-<div align="center">
-<h1> Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images </h1>
-<h3>
-
 <image src="images/Perturbation Figure color.png" width="600">
-</div>
 
 # Getting started
 
