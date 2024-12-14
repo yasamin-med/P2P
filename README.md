@@ -16,7 +16,9 @@ In contrast to current prompt learning-based approaches, our P2P stands out by d
 
 <br>
 
+<div align="center">
 <image src="images/Perturbation Figure color.png" width="600">
+</div>
 
 # Getting started
 
