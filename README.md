@@ -32,7 +32,7 @@ The code was tested on a GeForce RTX 3080 32GB but should work on other cards wi
 ## Training Classifiers
 You can train the classifiers using the command below:
 ```bash
-python evaluate_new.py --data_path <dir_of_dataset_local>\
+python evaluate.py --data_path <dir_of_dataset_local>\
  --data_test_path <path_of_test_dataset>\
  --data_valid_path <path_of_validation_set>\
  --output_path <dir_of_output>\
