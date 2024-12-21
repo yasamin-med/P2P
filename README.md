@@ -1,7 +1,12 @@
 
 <div align="center">
-<h1> Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images </h1>
-<h3>
+<h1>
+    <a href="https://arxiv.org/abs/2412.09910" target="_blank">
+        Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images
+    </a>
+</h1>
+
+ <h3>
 
 <image src="images/attack paper_final_version-1.png" width="600">
 </div>
@@ -19,6 +24,9 @@ In contrast to current prompt learning-based approaches, our P2P stands out by d
 <div align="center">
 <image src="images/Perturbation Figure color.png" width="600">
 </div>
+
+## 💥 News 💥
+- **`10.12.2024`** | Code is released!
 
 # Getting started
 
@@ -88,3 +96,16 @@ You can generate adversarial attack by our pipeline using the command below:
 - `path_classifier` path where the classifier resides
 - `path_csv` path to save csv output of training metrics 
 
+## Acknowledgement
+We thank the authors of [huggingface diffusers library](https://github.com/huggingface/diffusers) for their code repository.
+
+
+## Citation
+```
+@article{medghalchi2024prompt2perturb,
+  title={Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images},
+  author={Medghalchi, Yasamin and Heidari, Moein and Allard, Clayton and Sigal, Leonid and Hacihaliloglu, Ilker},
+  journal={arXiv preprint arXiv:2412.09910},
+  year={2024}
+}
+```
