@@ -26,6 +26,7 @@ In contrast to current prompt learning-based approaches, our P2P stands out by d
 </div>
 
 ## 💥 News 💥
+- **`26.02.2025`** | Accepted in CVPR 2025! 🥳
 - **`10.12.2024`** | Code is released!
 
 # Getting started
