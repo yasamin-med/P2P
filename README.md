@@ -2,7 +2,7 @@
 <div align="center">
 <h1>
     <a href="https://arxiv.org/abs/2412.09910" target="_blank">
-        Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images
+        Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images (CVPR 2025)
     </a>
 </h1>
 
