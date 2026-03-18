@@ -104,10 +104,11 @@ We thank the authors of [huggingface diffusers library](https://github.com/huggi
 
 ## Citation
 ```
-@article{medghalchi2024prompt2perturb,
-  title={Prompt2Perturb (P2P): Text-Guided Diffusion-Based Adversarial Attacks on Breast Ultrasound Images},
+@inproceedings{medghalchi2025prompt2perturb,
+  title={Prompt2perturb (p2p): Text-guided diffusion-based adversarial attack on breast ultrasound images},
   author={Medghalchi, Yasamin and Heidari, Moein and Allard, Clayton and Sigal, Leonid and Hacihaliloglu, Ilker},
-  journal={arXiv preprint arXiv:2412.09910},
-  year={2024}
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={28564--28574},
+  year={2025}
 }
 ```
